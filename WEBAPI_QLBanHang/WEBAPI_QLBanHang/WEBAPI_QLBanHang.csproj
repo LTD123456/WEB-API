@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200103071804_initial.cs" />
+    <Compile Remove="Migrations\20200103071804_initial.Designer.cs" />
+    <Compile Remove="Migrations\20200103072102_initial.cs" />
+    <Compile Remove="Migrations\20200103072102_initial.Designer.cs" />
+    <Compile Remove="Migrations\20200103072934_initial.cs" />
+    <Compile Remove="Migrations\20200103072934_initial.Designer.cs" />
+    <Compile Remove="Migrations\20200103073500_createDB.cs" />
+    <Compile Remove="Migrations\20200103073500_createDB.Designer.cs" />
+    <Compile Remove="Migrations\20200103073842_createDB.cs" />
+    <Compile Remove="Migrations\20200103073842_createDB.Designer.cs" />
+    <Compile Remove="Migrations\20200103074101_createDB.cs" />
+    <Compile Remove="Migrations\20200103074101_createDB.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+  </ItemGroup>
+
+
+</Project>
