@@ -19,6 +19,16 @@ namespace WEBAPI_QLBanHang.Controllers
             _INhanVien = nv;
         }
 
+        [Route("Get")]
+        [HttpGet]
+        public ActionResult GetNV()
+        {
+            //_ICourseServer.Add(Course);
+            //_INhanVien.Add(nv);
+            var listNV = _INhanVien.getAll<NhanVien>().ToList();
+            return Ok(listNV);
+        }
+
         [Route("Add")]
         [HttpPost]
         public ActionResult AddNV(NhanVien nv)

@@ -8,6 +8,9 @@ namespace WEBAPI_QLBanHang.Models
 {
     public class NhanVien:Entity<Guid>
     {
+        public Guid ID { get; set; }
+        [Key]
+        public string IDNhanVien { get; set; }
         [Required]
         public string HoTenNV { get; set; }
         public DateTime NgayThamGia { get; set; }

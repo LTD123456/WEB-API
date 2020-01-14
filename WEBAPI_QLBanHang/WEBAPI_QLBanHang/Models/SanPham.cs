@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace WEBAPI_QLBanHang.Models
 {
-    public class SanPham : Entity<Guid>
+    public class SanPham
     {
+        public Guid ID { get; set; }
+        [Key]
+        public string IDSanPham { get; set; }
         [Required]
         public string TenSanPham { get; set; }
         [Required]

@@ -8229,11 +8229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\WebAPI\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang.csproj",
+      "projectUniqueName": "D:\\git\\WEB-API\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang.csproj",
       "projectName": "WEBAPI_QLBanHang",
-      "projectPath": "D:\\git\\WebAPI\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang.csproj",
+      "projectPath": "D:\\git\\WEB-API\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang.csproj",
       "packagesPath": "C:\\Users\\lthienduc\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\WebAPI\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang\\obj\\",
+      "outputPath": "D:\\git\\WEB-API\\WEBAPI_QLBanHang\\WEBAPI_QLBanHang\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

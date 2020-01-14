@@ -8,7 +8,7 @@ namespace WEBAPI_QLBanHang.DTO.DTOInterface
 {
     public interface INhanVien
     {
-        List<NhanVien> getAll<NhanVien>();
+        List<WEBAPI_QLBanHang.Models.NhanVien> getAll<NhanVien>();
         NhanVien getByID(Guid id);
         void Add(NhanVien nv);
         void Delete(Guid id);

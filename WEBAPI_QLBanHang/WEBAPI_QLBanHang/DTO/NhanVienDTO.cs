@@ -37,9 +37,10 @@ namespace WEBAPI_QLBanHang.DTO
             throw new NotImplementedException();
         }
 
-        public List<NhanVien> getAll<NhanVien>()
+        public List<WEBAPI_QLBanHang.Models.NhanVien> getAll<NhanVien>()
         {
-            throw new NotImplementedException();
+            var listNV = _IRepository.getAll<WEBAPI_QLBanHang.Models.NhanVien>().ToList();
+            return listNV;
         }
 
         public NhanVien getByID(Guid id)
